@@ -57,3 +57,17 @@ class ConcreteDecoratorB(Decorator):
 
     def operation(self) -> str:
         return f"ConcreteDecoratorB({self.component.operation()})"
+
+
+def client_code(component: Component) -> None:
+    """
+    The client code works with all objects using the Component interface. This
+    way it can stay independent of the concrete classes of components it works
+    with.
+    """
+
+    # ...
+
+    print(f"RESULT: {component.operation()}", end="")
+
+    # ...
