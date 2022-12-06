@@ -1,1 +1,1 @@
-## This repo is about samples of using design patterns in Python
+### This repo is about samples of using design patterns in Python
