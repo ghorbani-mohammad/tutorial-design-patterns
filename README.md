@@ -5,3 +5,4 @@
 - Decorator
 - Singleton
 - Adapter
+- Facade
