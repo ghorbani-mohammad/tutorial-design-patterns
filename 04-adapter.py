@@ -26,3 +26,11 @@ class Adapter(Target, Adaptee):
 
     def request(self) -> str:
         return f"Adapter: (TRANSLATED) {self.specific_request()[::-1]}"
+
+
+def client_code(target: "Target") -> None:
+    """
+    The client code supports all classes that follow the Target interface.
+    """
+
+    print(target.request(), end="")
