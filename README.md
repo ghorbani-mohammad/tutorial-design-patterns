@@ -6,3 +6,4 @@
 - Singleton
 - Adapter
 - Facade
+- Proxy
