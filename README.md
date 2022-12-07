@@ -4,3 +4,4 @@
 - Factory Method
 - Decorator
 - Singleton
+- Adapter
